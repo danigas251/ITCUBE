@@ -4,10 +4,15 @@
 min-height: 100vh;
 background: linear-gradient(rgba(42, 241, 241, 0.308),rgba(121, 10, 224, 0.329)), url(./images/почему.jpg);
 background-size:cover;
+position: relative;
 }
 
 .cover__text{
     color: rgb(0, 0, 0);
+    position:absolute;
+    left: 35px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .cover__slogan{
@@ -18,4 +23,24 @@ background-size:cover;
 .cover__2slogan{
     font-size: 60px;
     font-weight: 200;
+}
+
+.portfolio__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__text{
+    font-size: 30px;
+    font-weight: 30;
+}
+
+.portfolio__abzac{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__abzac{
+    font-size: 50px;
+    font-weight: 40;
 }
